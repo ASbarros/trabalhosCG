@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1568994656 source:d:\computacao grafica\exercicio3\main.c
+	<windows.h>
+	<stdlib.h>
+	<GL/glut.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
