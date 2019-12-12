@@ -1,0 +1,47 @@
+void CuboColorido(GLfloat tam)
+{
+ 
+  glEnable(GL_CULL_FACE);
+  glCullFace(GL_BACK);	
+  
+  tam /= 2;
+    
+  glBegin(GL_QUADS);		
+    glColor3f(1.0f,0.0f,0.0f);
+    glVertex3f( tam, tam,-tam);	
+    glVertex3f(-tam, tam,-tam);	
+    glVertex3f(-tam, tam, tam);	
+    glVertex3f( tam, tam, tam);
+   
+    glColor3f(0.0f,1.0f,0.0f);	
+    glVertex3f( tam,-tam, tam);	
+    glVertex3f(-tam,-tam, tam);	
+    glVertex3f(-tam,-tam,-tam);
+    glVertex3f( tam,-tam,-tam);
+
+    glColor3f(0.0f,0.0f,1.0f);			
+    glVertex3f( tam, tam, tam);	
+    glVertex3f(-tam, tam, tam);	
+    glVertex3f(-tam,-tam, tam);	
+    glVertex3f( tam,-tam, tam);	
+
+    glColor3f(1.0f,1.0f,0.0f);	
+    glVertex3f( tam,-tam,-tam);	
+    glVertex3f(-tam,-tam,-tam);	
+    glVertex3f(-tam, tam,-tam);	
+    glVertex3f( tam, tam,-tam);	
+
+    glColor3f(1.0f,0.0f,1.0f);	
+    glVertex3f(-tam, tam, tam);	
+    glVertex3f(-tam, tam,-tam);	
+    glVertex3f(-tam,-tam,-tam);
+    glVertex3f(-tam,-tam, tam);	
+
+    glColor3f(0.0f,1.0f,1.0f);	
+    glVertex3f( tam, tam,-tam);	
+    glVertex3f( tam, tam, tam);
+    glVertex3f( tam,-tam, tam);
+    glVertex3f( tam,-tam,-tam);
+  
+  glEnd();
+}

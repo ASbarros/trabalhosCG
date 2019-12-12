@@ -1,0 +1,8 @@
+F1 F2 = mexe com onde começa a visão da pesprectiva e ortografica
+f3 f4 = até onde a visão vai
+
+w s = mexe a camera no eixo Y
+a d = mexe a camera no eixo X
+q e = mexe a camera em Z
+
+e as setas faz rotação de acordo com exercicio anterior
