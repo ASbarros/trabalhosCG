@@ -1,0 +1,15 @@
+1) Por que quando a tela irá ser desenha ou toda vez que houver uma mudança no
+tamanho dela, a função AlteraTamanhoJanela é chamada, ela recebe como parâmetro a 
+largura e  altura da tela, e passa esses parâmetros para a viewport, onde é feito 
+o desenho do cubo.
+
+3) Por que quando a tela irá ser desenha ou toda vez que houver uma mudança no 
+tamanho dela, a função AlteraTamanhoJanela é chamada, e toda vez que essa função é 
+chamada, ela redefine a veriavél global fAspect(largura/altura), que é usada para 
+especificar a projeção perspectiva na função EspecificaParametrosVisualizacao.
+
+4) O primeiro parâmetro (angy) especifica o ângulo de visualização, em graus, 
+na direção y, ou seja, determina a “altura” do ângulo de abertura da lente da
+câmera sintética.
+   Então, quanto maior o ângulo, maior é o ângulo de visão e mais distante o 
+objeto ficará.
